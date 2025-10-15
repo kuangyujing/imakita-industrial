@@ -1,0 +1,31 @@
+# Node modules
+node_modules
+backend/node_modules
+
+# Environment files (will be loaded via docker-compose)
+backend/.env
+
+# Git
+.git
+.gitignore
+
+# Documentation
+README.md
+CLAUDE.md
+
+# Development files
+.vscode
+.idea
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temporary files
+/tmp
+*.tmp
+*.swp

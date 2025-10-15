@@ -1,0 +1,32 @@
+{
+    "name": "imakita-industries-backend",
+    "version": "1.0.0",
+    "description": "今北産業株式会社 - 3行要約API (Imakita Industries Inc.)",
+    "main": "src/server.js",
+    "type": "module",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "nodemon src/server.js"
+    },
+    "dependencies": {
+        "dotenv": "^17.2.3",
+        "express": "^4.21.2",
+        "openai": "^4.67.3"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.0"
+    },
+    "engines": {
+        "node": ">=20"
+    },
+    "keywords": [
+        "imakita",
+        "sangyo",
+        "summary",
+        "tts",
+        "openai",
+        "express"
+    ],
+    "author": "今北産業株式会社 (Imakita Industries Inc.)",
+    "license": "MIT"
+}

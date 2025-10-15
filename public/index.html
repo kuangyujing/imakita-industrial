@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🦦 今北産業株式会社 - Imakita Industries Inc.</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>🦦 今北産業株式会社</h1>
+      <p class="subtitle">
+        Imakita Industries Inc. — <i>Three lines tell the story.</i>
+      </p>
+    </header>
+
+    <main>
+      <section>
+        <h2>📜 要約したい文章を入力</h2>
+        <textarea
+          id="inputText"
+          placeholder="ここに文章を入力してください（例：ニュース記事や日記など）"
+        ></textarea>
+      </section>
+
+      <section>
+        <h3>🎙️ トーンを選択</h3>
+        <select id="toneSelect">
+          <option value="普通">普通</option>
+          <option value="ニュース風">ニュース風</option>
+          <option value="ツンデレ">ツンデレ</option>
+          <option value="関西弁">関西弁</option>
+          <option value="ホラー調">ホラー調</option>
+        </select>
+      </section>
+
+      <button id="summarizeButton">今北産業する！</button>
+
+      <section id="resultSection" style="display: none;">
+        <h3>🧠 要約結果（3行）</h3>
+        <textarea id="summaryText" readonly></textarea>
+        <audio id="summaryAudio" controls></audio>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 今北産業株式会社 — Powered by Imakita Industries AI Lab</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
