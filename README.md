@@ -1,4 +1,4 @@
-![assets/logo.png]
+![今北産業株式会社](assets/logo.png)
 
 # 今北産業株式会社
 
