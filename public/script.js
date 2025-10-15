@@ -42,7 +42,7 @@ document.getElementById("summarizeButton").addEventListener("click", async () =>
 
     if (data.audio_url) {
       audio.src = data.audio_url;
-      audio.playbackRate = 1.25;
+      audio.playbackRate = tone === "ホラー調" ? 0.9 : 1.25;
       audio.style.display = "block";
     } else {
       audio.style.display = "none";
